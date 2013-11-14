@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Moles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CachePath="C:\Program Files\Microsoft Moles\bin\..\MolesAssemblies" xmlns="http://schemas.microsoft.com/moles/2010/">
+  <Assembly Name="mscorlib" Location="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll" ReflectionOnly="true" ExportedTypes="true" />
+  <CodeStyle MaxIdentifierLength="256" />
+  <StubGeneration>
+    <Types>
+      <Clear />
+    </Types>
+  </StubGeneration>
+  <MoleGeneration>
+    <Types>
+      <Clear />
+      <Add TypeName="AppDomain" />
+      <Add TypeName="Path" />
+      <Add TypeName="FileStream" />
+    </Types>
+  </MoleGeneration>
+  <Compilation>
+    <Reference FullName="ApplicationConfigSettings, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Path="C:\Users\B06205A\Downloads\CustomAction\Main\ApplicationConfigSettings\bin\Debug\ApplicationConfigSettings.dll" />
+    <Reference FullName="Microsoft.Deployment.WindowsInstaller, Version=3.0.0.0, Culture=neutral, PublicKeyToken=ce35f76fcda82bad" Path="C:\Program Files (x86)\WiX Toolset v3.7\SDK\Microsoft.Deployment.WindowsInstaller.dll" />
+    <Reference FullName="Microsoft.ExtendedReflection, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Path="C:\Program Files (x86)\Common Files\Microsoft Shared\ExtendedReflection\0.94.51023.0\bin\Microsoft.ExtendedReflection.dll" />
+    <Reference FullName="Microsoft.Moles.Framework, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Path="C:\Program Files\Microsoft Moles\PublicAssemblies\Microsoft.Moles.Framework.dll" />
+    <Reference FullName="Microsoft.Pex.Framework, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Path="C:\Program Files\Microsoft Moles\PublicAssemblies\Microsoft.Pex.Framework.dll" />
+    <Reference FullName="Microsoft.Pex.Linq, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Path="C:\Program Files\Microsoft Pex\PublicAssemblies\Microsoft.Pex.Linq.dll" />
+    <Reference FullName="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Path="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\ReferenceAssemblies\v4.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" />
+    <Reference FullName="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" />
+    <Reference FullName="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" />
+    <Reference FullName="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" />
+    <Reference FullName="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" />
+    <Reference FullName="UpdateConfigCustomAction, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Path="C:\Users\B06205A\Downloads\CustomAction\Main\CustomAction1\bin\Debug\UpdateConfigCustomAction.dll" />
+  </Compilation>
+</Moles>

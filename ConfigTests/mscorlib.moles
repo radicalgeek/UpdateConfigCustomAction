@@ -1,0 +1,16 @@
+<Moles xmlns="http://schemas.microsoft.com/moles/2010/">
+  <Assembly Name="mscorlib" ExportedTypes="true" ReflectionOnly="true" />
+  <StubGeneration>
+    <Types>
+      <Clear/>
+    </Types>
+  </StubGeneration>
+  <MoleGeneration>
+    <Types>
+      <Clear/>
+      <Add TypeName="AppDomain"/>
+      <Add TypeName="Path"/>
+      <Add TypeName="FileStream"/>
+    </Types>
+  </MoleGeneration>
+</Moles>

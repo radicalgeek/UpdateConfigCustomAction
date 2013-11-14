@@ -1,0 +1,130 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateConfigCustomAction", "CustomAction1\UpdateConfigCustomAction.csproj", "{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B180A9E-7D93-4371-B703-4E32D4567F97}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SolutionAssemblyInfo.cs = SolutionAssemblyInfo.cs
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WiXServiceReferenceImplimentation.vsmdi = WiXServiceReferenceImplimentation.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationConfigSettings", "ApplicationConfigSettings\ApplicationConfigSettings.csproj", "{13B9E293-6947-4B0E-A7D2-99EC137FDD86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EB694670-6385-4DE3-9505-193D99C7C508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigTests", "ConfigTests\ConfigTests.csproj", "{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{6E47417E-6453-485B-B66C-F153403E1AC8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\lib\WiX\Microsoft.Deployment.WindowsInstaller.dll = ..\..\lib\WiX\Microsoft.Deployment.WindowsInstaller.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateConfigCustomAction.Tests.Unit", "UpdateConfigCustomAction.Tests.Unit\UpdateConfigCustomAction.Tests.Unit.csproj", "{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://nadc1papptier01:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CustomAction1\\UpdateConfigCustomAction.csproj
+		SccProjectTopLevelParentUniqueName1 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName1 = CustomAction1
+		SccLocalPath1 = CustomAction1
+		SccProjectUniqueName2 = InstallerSettingsService\\InstallerSettingsService.csproj
+		SccProjectTopLevelParentUniqueName2 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName2 = InstallerSettingsService
+		SccLocalPath2 = InstallerSettingsService
+		SccProjectUniqueName3 = ApplicationConfigSettings\\ApplicationConfigSettings.csproj
+		SccProjectTopLevelParentUniqueName3 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName3 = ApplicationConfigSettings
+		SccLocalPath3 = ApplicationConfigSettings
+		SccProjectUniqueName4 = DataAccess\\DataAccess.csproj
+		SccProjectTopLevelParentUniqueName4 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName4 = DataAccess
+		SccLocalPath4 = DataAccess
+		SccProjectUniqueName5 = SettingsServiceTests\\SettingsServiceTests.csproj
+		SccProjectTopLevelParentUniqueName5 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName5 = SettingsServiceTests
+		SccLocalPath5 = SettingsServiceTests
+		SccProjectUniqueName6 = ApplicationSettingsManager\\ApplicationSettingsManager.csproj
+		SccProjectTopLevelParentUniqueName6 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName6 = ApplicationSettingsManager
+		SccLocalPath6 = ApplicationSettingsManager
+		SccProjectUniqueName7 = ApplicationSettingsDB\\SettingsDB.dbproj
+		SccProjectTopLevelParentUniqueName7 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName7 = ApplicationSettingsDB
+		SccLocalPath7 = ApplicationSettingsDB
+		SccProjectUniqueName8 = ConfigTests\\ConfigTests.csproj
+		SccProjectTopLevelParentUniqueName8 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName8 = ConfigTests
+		SccLocalPath8 = ConfigTests
+		SccProjectUniqueName9 = UpdateConfigCustomAction.Tests.Unit\\UpdateConfigCustomAction.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName9 = InstallerConfigurationSettingsUpdater.sln
+		SccProjectName9 = UpdateConfigCustomAction.Tests.Unit
+		SccLocalPath9 = UpdateConfigCustomAction.Tests.Unit
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WiXServiceReferenceImplimentation.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Debug|x86.ActiveCfg = Debug|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Debug|x86.Build.0 = Debug|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Release|Any CPU.ActiveCfg = Release|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Release|x86.ActiveCfg = Release|x86
+		{0A613B7F-4A3B-4D92-ADA2-4584383BB3D2}.Release|x86.Build.0 = Release|x86
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{13B9E293-6947-4B0E-A7D2-99EC137FDD86}.Release|x86.ActiveCfg = Release|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C4DD7CE-C784-4CD6-AB70-D5F0C9D0D7CA} = {EB694670-6385-4DE3-9505-193D99C7C508}
+		{EDA177FF-5B19-4C64-AA56-CEAF0666EEA0} = {EB694670-6385-4DE3-9505-193D99C7C508}
+	EndGlobalSection
+EndGlobal

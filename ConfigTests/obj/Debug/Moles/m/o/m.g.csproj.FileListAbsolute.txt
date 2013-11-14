@@ -1,0 +1,12 @@
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\mscorlib.Moles.xml
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\mscorlib.Moles.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\mscorlib.Moles.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\ApplicationConfigSettings.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\Microsoft.Deployment.WindowsInstaller.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\UpdateConfigCustomAction.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\ApplicationConfigSettings.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\Microsoft.Deployment.WindowsInstaller.xml
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\b\UpdateConfigCustomAction.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\o\m.g.csprojResolveAssemblyReference.cache
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\o\mscorlib.Moles.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\ConfigTests\obj\Debug\Moles\m\o\mscorlib.Moles.pdb

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ApplicationConfigSettings" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ApplicationConfigSettings" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://devapp.dfg.local/SettingsService/ApplicationSettings.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:simpleType name="EnvironmentType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="DEV">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="QA">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="UAT">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="POC">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="BAT">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="PROD">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">6</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EnvironmentType" nillable="true" type="tns:EnvironmentType" />
+  <xs:complexType name="ArrayOfSetting">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Setting" nillable="true" type="tns:Setting" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSetting" nillable="true" type="tns:ArrayOfSetting" />
+  <xs:complexType name="Setting">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applicationID" type="xs:int" />
+      <xs:element minOccurs="0" name="environmentType" type="tns:EnvironmentType" />
+      <xs:element minOccurs="0" name="settingID" type="xs:int" />
+      <xs:element minOccurs="0" name="settingKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="settingName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="settingType" type="tns:SettingType" />
+      <xs:element minOccurs="0" name="settingValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Setting" nillable="true" type="tns:Setting" />
+  <xs:simpleType name="SettingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ConnectionString">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="AppSetting">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="ServiceEndpoint">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="ConfigurationSetting">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SettingType" nillable="true" type="tns:SettingType" />
+</xs:schema>

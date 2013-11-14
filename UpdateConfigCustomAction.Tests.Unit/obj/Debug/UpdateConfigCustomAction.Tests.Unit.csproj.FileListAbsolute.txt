@@ -1,0 +1,21 @@
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.Tests.Unit.dll
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.Tests.Unit.pdb
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.dll
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\ApplicationConfigSettings.dll
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.pdb
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\ApplicationConfigSettings.pdb
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\obj\Debug\UpdateConfigCustomAction.Tests.Unit.csprojResolveAssemblyReference.cache
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\obj\Debug\UpdateConfigCustomAction.Tests.Unit.dll
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\UpdateConfigCustomAction.Tests.Unit\obj\Debug\UpdateConfigCustomAction.Tests.Unit.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.Tests.Unit.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.Tests.Unit.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\ApplicationConfigSettings.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\UpdateConfigCustomAction.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\bin\Debug\ApplicationConfigSettings.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\obj\Debug\UpdateConfigCustomAction.Tests.Unit.csprojResolveAssemblyReference.cache
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\obj\Debug\UpdateConfigCustomAction.Tests.Unit.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\UpdateConfigCustomAction.Tests.Unit\obj\Debug\UpdateConfigCustomAction.Tests.Unit.pdb

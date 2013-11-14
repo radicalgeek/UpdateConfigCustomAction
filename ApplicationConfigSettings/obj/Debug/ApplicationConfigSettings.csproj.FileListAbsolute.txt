@@ -1,0 +1,9 @@
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\ApplicationConfigSettings\bin\Debug\ApplicationConfigSettings.dll
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\ApplicationConfigSettings\bin\Debug\ApplicationConfigSettings.pdb
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\ApplicationConfigSettings\obj\Debug\ApplicationConfigSettings.csprojResolveAssemblyReference.cache
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\ApplicationConfigSettings\obj\Debug\ApplicationConfigSettings.dll
+c:\TFSLocalUS\European Portfolio\InstallerConfigurationSettingsUpdater\Code\Main\ApplicationConfigSettings\obj\Debug\ApplicationConfigSettings.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\ApplicationConfigSettings\bin\Debug\ApplicationConfigSettings.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\ApplicationConfigSettings\bin\Debug\ApplicationConfigSettings.pdb
+C:\Users\B06205A\Downloads\CustomAction\Main\ApplicationConfigSettings\obj\Debug\ApplicationConfigSettings.dll
+C:\Users\B06205A\Downloads\CustomAction\Main\ApplicationConfigSettings\obj\Debug\ApplicationConfigSettings.pdb
